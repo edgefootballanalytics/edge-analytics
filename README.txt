@@ -13,9 +13,7 @@ WHAT WAS FIXED
 - Premium Telegram promotion is more prominent while Free Picks stay compact.
 - Results can be added separately.
 
-EDITOR LOGIN
-Username: owner
-Password: ChangeMe123!
+
 
 OPEN
 1. Extract the ZIP.
