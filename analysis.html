@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Football Match Analysis | Edge Analytics</title><meta name="description" content="Explore detailed football match analysis by league and team, including form, team news, tactics and analyst selections.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://gokul-3059.github.io/edge-analytics/analysis.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Football Match Analysis | Edge Analytics">
+<meta property="og:description" content="Explore detailed football match analysis by league and team, including form, team news, tactics and analyst selections.">
+<meta property="og:url" content="https://gokul-3059.github.io/edge-analytics/analysis.html">
+<meta property="og:site_name" content="Edge Analytics">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Football Match Analysis | Edge Analytics">
+<meta name="twitter:description" content="Explore detailed football match analysis by league and team, including form, team news, tactics and analyst selections.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head>
+<body><header class="site-header"><a class="brand" href="index.html"><span class="logo">EA</span><span>EDGE<span>ANALYTICS</span></span></a><nav><a href="picks.html">Free Picks</a><a class="active" href="analysis.html">Analysis</a><a href="results.html">Results</a><a class="nav-premium" href="premium.html">Premium Telegram</a></nav></header>
+<main><section class="page-head"><span class="eyebrow">RESEARCH LIBRARY</span><h1>Match Analysis</h1><p>Browse published research by league or team.</p></section>
+<section class="filters"><select id="leagueFilter"><option value="">All leagues</option></select><input id="teamSearch" placeholder="Search team or match…"><select id="sortFilter"><option value="latest">Latest first</option><option value="oldest">Oldest first</option></select></section>
+<section class="section compact"><div id="analysisGrid" class="analysis-grid"></div></section></main><footer>Edge Analytics · Research library</footer>
+<script src="app.js"></script><script>initAnalysis();document.getElementById('leagueFilter').onchange=renderAnalysis;document.getElementById('teamSearch').oninput=renderAnalysis;document.getElementById('sortFilter').onchange=renderAnalysis;</script></body></html>

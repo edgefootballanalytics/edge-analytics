@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+Sitemap: https://gokul-3059.github.io/edge-analytics/sitemap.xml
